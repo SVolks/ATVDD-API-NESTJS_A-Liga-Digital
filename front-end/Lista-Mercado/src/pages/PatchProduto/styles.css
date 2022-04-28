@@ -1,0 +1,30 @@
+.produto_edit {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 8px;
+}
+
+.produto_campo{
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    padding-left: 8px;
+}
+
+.produto_label{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.produt_container {
+    background-color: #fff;
+    padding: 30px 0 30px 40px;
+    width: 1000px;
+    margin: 150px 200px;
+}
+
+.editar-btn {
+    width: 30%;
+    align-self: flex-end;
+    padding: 5px 0 5px;
+}

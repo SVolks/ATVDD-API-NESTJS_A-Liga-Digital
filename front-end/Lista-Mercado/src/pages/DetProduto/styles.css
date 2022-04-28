@@ -1,0 +1,16 @@
+.produto_container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 16px;
+}
+
+.produto_card_container_det {
+    padding: 80px 290px 0 530px;
+}
+
+.produto_card_actions {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

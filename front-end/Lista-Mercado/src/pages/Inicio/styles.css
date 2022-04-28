@@ -1,0 +1,15 @@
+.inicio_container{
+    background: linear-gradient(72deg, #f0fcee 1%, #b1ffac 99%);
+    padding: 18px 50px 55px 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%;
+}
+
+img {
+    border-radius: 50%;
+}
