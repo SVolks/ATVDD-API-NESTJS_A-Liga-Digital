@@ -17,7 +17,7 @@ export default function Inicio(){
                 <img src={logo} alt='logo' className='center'/>
                 <br/>
 
-                <Button className='center' onClick={listarProdutos}>Ver Produtos</Button>
+                <Button className='center' onClick={listarProdutos}>Acessar Lista de Compras</Button>
             </section>
         </div>
     )

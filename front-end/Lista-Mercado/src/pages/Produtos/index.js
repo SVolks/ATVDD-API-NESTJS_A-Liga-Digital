@@ -22,19 +22,19 @@ export default function Produtos(){
     return(
 
         <div className="produto_container">
-            <h1>Relação de todos os Produtos</h1>
+            <h1>Lista de compras</h1>
 
             <div className="produto_card_container">
                 {produtos.map(produto => (
-                    <Card key={produto.id} title={produto.name} bordered={false} style={{width: 186}}>
-                        <Checkbox onChange={(onChange) =>
+                    <Card key={produto.id} title={produto.name} bordered={false} style={{width: 186, height: 250}}>
+                        <Checkbox className="checkbox" onChange={(onChange) =>
                             function onChange(e) {
                                 console.log(`checked = ${e.target.checked}`)
                             }}>
                         </Checkbox>
                         <p>Descrição: {produto.description}</p>
                         <p>Quantidade: {produto.quantity}</p>
-                        <Button onClick={() => history.push(`/detalhes/${produto.id}`)}>Detalhes</Button>
+                        <Button className="btn" onClick={() => history.push(`/detalhes/${produto.id}`)}>Detalhes</Button>
                     </Card>
                 ))}
             </div>

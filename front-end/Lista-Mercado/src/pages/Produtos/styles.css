@@ -6,7 +6,7 @@
 
 .produto_container h1 {
     width: 1400px;
-    font-weight: 900;
+    font-weight: 500;
     font-size:large 20px;
     color: #000;
     background-color: rgba(78, 211, 166, 0.949);
@@ -21,4 +21,19 @@
     gap: 16px;
     justify-content: flex-start;
     border-radius: 2px;
+}
+
+.produto_card_container p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.checkbox {
+    margin-left: 130px;
+}
+
+.btn {
+    width: 70%;
+    position: absolute;
+    bottom: 8px;
 }

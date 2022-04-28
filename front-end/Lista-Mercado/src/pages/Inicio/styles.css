@@ -1,9 +1,10 @@
 .inicio_container{
     background: linear-gradient(72deg, #f0fcee 1%, #b1ffac 99%);
-    padding: 18px 50px 55px 0;
+    padding: 18px 70px 51px 0;
 }
 
 .center {
+    font-weight: 700;
     display: block;
     margin-left: auto;
     margin-right: auto;

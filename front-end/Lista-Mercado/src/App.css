@@ -1,5 +1,9 @@
 @import '~antd/dist/antd.css';
 
+*{
+  color: none;
+}
+
 .main {
   height: 100vh;
 }
@@ -20,7 +24,7 @@
 }
 
 .content {
-  margin-right: 80px;
+  margin-right: 50px;
   overflow: auto;
   background-image: url(./pages/assets/bgimg.webp);
   background-size: 110px;
@@ -34,4 +38,9 @@
 
 .menu_section{
   background-color: #f7f7f7;
+}
+
+p {
+  margin-top: 480px;
+  margin-bottom: 0;
 }
