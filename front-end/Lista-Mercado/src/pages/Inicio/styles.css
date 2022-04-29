@@ -1,6 +1,6 @@
 .inicio_container{
-    background: linear-gradient(72deg, #f0fcee 1%, #b1ffac 99%);
-    padding: 18px 70px 51px 0;
+    background: linear-gradient(72deg, #f0fcee 1%, #ffacac 99%);
+    padding: 17px 0px 17px 0;
 }
 
 .center {
@@ -8,9 +8,12 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 38%;
+    width: 64%;
+    border: none;
+    background: none;
 }
 
 img {
     border-radius: 50%;
+    cursor: pointer;
 }

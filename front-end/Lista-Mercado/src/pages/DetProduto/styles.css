@@ -8,6 +8,10 @@
     padding: 80px 290px 0 530px;
 }
 
+.produto_card_container_det p {
+    margin-bottom: 30px;
+}
+
 .produto_card_actions {
     width: 100%;
     display: flex;

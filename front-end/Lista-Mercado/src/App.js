@@ -1,16 +1,25 @@
 import './App.css';
-
-import { Menu } from 'antd';
+import { Menu, Layout } from 'antd';
 import Routes from './routes';
 import {PlusOutlined, UnorderedListOutlined, HomeOutlined, GithubOutlined} from '@ant-design/icons'
-
 import { useHistory } from 'react-router-dom';
-import { Layout } from 'antd';
+
 const { Header, Footer, Sider, Content } = Layout;
 
 function App() {
 
-  const history = useHistory();
+  let history = useHistory();
+
+  function handleClick(){
+    history.push("/adicionar");
+  }
+  function listaProduto(){
+    history.push("/produtos")
+  }
+  
+  function telaInicial(){
+    history.push("/")
+  }
 
   return (
     <div className="main">
@@ -19,13 +28,13 @@ function App() {
       <Layout>
         <Sider className='menu'>
           <Menu className='menu_section'>
-            <Menu.Item key={0} icon={<HomeOutlined />} onClick={() => history.push('./')}>
+            <Menu.Item key={0} icon={<HomeOutlined />} onClick={telaInicial}>
               Tela Inicial
             </Menu.Item>
-            <Menu.Item key={1} icon={<PlusOutlined />} onClick={() => history.push('./adicionar')}>
+            <Menu.Item key={1} icon={<PlusOutlined />} onClick={handleClick}>
               Adicionar Produto
             </Menu.Item>
-            <Menu.Item key={2} icon={<UnorderedListOutlined />} onClick={() => history.push('./produtos')}>
+            <Menu.Item key={2} icon={<UnorderedListOutlined />} onClick={listaProduto}>
               Lista de Produtos
             </Menu.Item>
             <p><a href='https://github.com/SVolks' target='_blank' rel="noreferrer">

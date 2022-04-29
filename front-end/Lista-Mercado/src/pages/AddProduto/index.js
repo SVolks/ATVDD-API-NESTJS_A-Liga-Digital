@@ -26,7 +26,7 @@ export default function AdicionarProduto(){
             <h1>Adicionar novo produto</h1>
             <br/>
             <div>
-                <Form className='form_produto' name='submitProduto' labelCol={{span:8}} wrapperCol={{span: 16}} onFinish={handleSubmit} autoComplete="off">
+                <Form className='form_produto' name='submitProduto' labelCol={{span:8}} wrapperCol={{span: 16}} onFinish={handleSubmit} autoComplete="off" style={{border: "3px solid rgba(217, 216, 216, 0.902)"}}>
                     <Form.Item label='Nome do item' name="name" rules={[{required: true, message:"Digite o nome do item"}]}>
                         <Input />
                     </Form.Item>

@@ -26,7 +26,7 @@ export default function Produtos(){
 
             <div className="produto_card_container">
                 {produtos.map(produto => (
-                    <Card key={produto.id} title={produto.name} bordered={false} style={{width: 186, height: 250}}>
+                    <Card key={produto.id} title={produto.name} bordered={false} style={{width: 186, height: 280, border: "3px solid rgba(217, 216, 216, 0.902)"}}>
                         <Checkbox className="checkbox" onChange={(onChange) =>
                             function onChange(e) {
                                 console.log(`checked = ${e.target.checked}`)

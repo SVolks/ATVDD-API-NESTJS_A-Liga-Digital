@@ -9,7 +9,7 @@
     font-weight: 500;
     font-size:large 20px;
     color: #000;
-    background-color: rgba(78, 211, 166, 0.949);
+    background-color: rgba(255, 247, 247, 0.949);
     text-align: center;
 }
 
@@ -26,6 +26,7 @@
 .produto_card_container p {
     margin-top: 15px;
     margin-bottom: 25px;
+    font-weight: 500;
 }
 
 .checkbox {

@@ -26,8 +26,8 @@
 .content {
   margin-right: 50px;
   overflow: auto;
-  background-image: url(./pages/assets/bgimg.webp);
-  background-size: 110px;
+  background-image: url(./pages/assets/bgimg0.png);
+  background-size: 500px;
 }
 
 .footer{
@@ -40,7 +40,7 @@
   background-color: #f7f7f7;
 }
 
-p {
+.menu_section p{
   margin-top: 480px;
   margin-bottom: 0;
 }

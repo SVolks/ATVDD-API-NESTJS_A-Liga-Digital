@@ -29,7 +29,7 @@ export default function EditarProduto() {
     }
 
     return (
-        <div className='produt_container'>
+        <div className='produt_container' style={{border: "3px solid rgba(217, 216, 216, 0.902)"}}>
             <h1>Editar Produto</h1>
             <br/>
             <h2>{produtoEdit.name}</h2>

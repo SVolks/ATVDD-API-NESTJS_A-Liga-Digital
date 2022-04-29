@@ -1,7 +1,6 @@
 import {useHistory} from 'react-router-dom'
 import './styles.css'
 import logo from '../assets/logo.jpg'
-import {Button} from 'antd'
 
 export default function Inicio(){
     const history = useHistory()
@@ -14,10 +13,10 @@ export default function Inicio(){
     return(
         <div className='inicio_container'>
             <section>
-                <img src={logo} alt='logo' className='center'/>
-                <br/>
-
-                <Button className='center' onClick={listarProdutos}>Acessar Lista de Compras</Button>
+                <button className='center' onClick={listarProdutos}>
+                    <img src={logo} alt='logo' title='Coloque suas compras na cestinha!' className='center'/>
+                    <br/>
+                </button>
             </section>
         </div>
     )
