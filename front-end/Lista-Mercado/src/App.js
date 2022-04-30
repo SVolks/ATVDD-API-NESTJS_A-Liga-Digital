@@ -1,5 +1,5 @@
 import './App.css';
-import { Menu, Layout } from 'antd';
+import { Menu, Layout, Switch } from 'antd';
 import Routes from './routes';
 import {PlusOutlined, UnorderedListOutlined, HomeOutlined, GithubOutlined} from '@ant-design/icons'
 import { useHistory } from 'react-router-dom';
@@ -37,6 +37,11 @@ function App() {
             <Menu.Item key={2} icon={<UnorderedListOutlined />} onClick={listaProduto}>
               Lista de Produtos
             </Menu.Item>
+            <Switch defaultChecked onChange={(onChange) =>
+              function onChange(checked) {
+                console.log(`switch to ${checked}`);
+              }}>
+              </Switch>
             <p><a href='https://github.com/SVolks' target='_blank' rel="noreferrer">
               <Menu.Item key={3} icon={<GithubOutlined />}>
                 GitHub
