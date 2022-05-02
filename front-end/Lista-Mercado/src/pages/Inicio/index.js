@@ -13,8 +13,8 @@ export default function Inicio(){
     return(
         <div className='inicio_container'>
             <section>
-                <button className='center' onClick={listarProdutos}>
-                    <img src={logo} alt='logo' title='Coloque suas compras na cestinha!' className='center'/>
+                <button className='center'>
+                    <img onClick={listarProdutos} src={logo} alt='logo' title='Coloque suas compras na cestinha!' className='center'/>
                     <br/>
                 </button>
             </section>
