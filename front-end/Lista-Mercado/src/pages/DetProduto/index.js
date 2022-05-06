@@ -51,7 +51,7 @@ export default function DetalhesProduto(){
             <h1>Detalhes do produto</h1>
             <br/>
             <div className="produto_card_container_det">
-                <Card key={produto.id} title={produto.name} style={{border: "3px solid rgba(217, 216, 216, 0.902)"}}>
+                <Card className="card_det" key={produto.id} title={produto.name} style={{border: "3px solid rgba(217, 216, 216, 0.902)"}}>
                     <p>Id: {produto.id}</p>
                     <p>UpdatedAt: {produto.updatedAt}</p>
                     <p>Descrição: {produto.description}</p>

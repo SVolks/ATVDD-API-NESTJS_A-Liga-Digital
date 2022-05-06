@@ -37,7 +37,7 @@ export default function AdicionarProduto(){
                         <InputNumber />
                     </Form.Item>
                     <Form.Item>
-                        <Button type='primary'htmlType='submit' disabled={disabled}>
+                        <Button className='btn_add' type='primary'htmlType='submit' disabled={disabled}>
                             Adicionar item
                         </Button>
                     </Form.Item>

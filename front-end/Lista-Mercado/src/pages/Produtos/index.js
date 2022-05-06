@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from "react";
 import api from '../../services/api';
 import { useHistory } from "react-router-dom";
-
 import './styles.css'
 import { Button, Card, message } from 'antd';
 
@@ -34,17 +33,16 @@ export default function Produtos(){
                 }
 
     return(
-
         <div className="produto_container">
             <h1>Lista de compras</h1>
 
             <div className="produto_card_container">
                 {produtos.map(produto => (
-                    <Card className="card" key={produto.id} title={produto.name} bordered={false} style={{width: 186, height: 280, border: "3px solid rgba(217, 216, 216, 0.902)"}}>
-                        <input type="checkbox" className="checkbox"></input>
+                    <Card className="card" key={produto.id} title={produto.name} bordered={false} style={{width: 206, height: 250, border: "3px solid rgba(217, 216, 216, 0.902)"}}>
+                        <input id="cb" type="checkbox" className="checkbox"></input>
                         <p>Descrição: {produto.description}</p>
                         <p>Quantidade: {produto.quantity}</p>
-                        <Button className="btn" onClick={() => history.push(`/detalhes/${produto.id}`)}>Detalhes</Button>
+                        <Button className="btn_prod" onClick={() => history.push(`/detalhes/${produto.id}`)}>Detalhes</Button>
                     </Card>
                 ))}
             </div>

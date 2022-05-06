@@ -8,10 +8,10 @@
 }
 
 .form_produto {
-    background-color: #fff;
+    /*background-color: #fff;*/
     width: 850px;
-    margin-left: 280px;
-    margin-top: 90px;
+    margin-left: 160px;
+    margin-top: 70px;
     padding: 20px 30px 1px 30px;
     border-radius: 8px;
 }

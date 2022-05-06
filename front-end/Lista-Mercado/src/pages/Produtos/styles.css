@@ -5,21 +5,21 @@
 }
 
 .produto_container h1 {
-    width: 1400px;
+    width: 1095px;
     font-weight: 500;
     font-size:large 20px;
-    color: #000;
-    background-color: rgba(255, 247, 247, 0.949);
+    /*color: rgb(64, 64, 64);
+    background-color: rgba(189, 189, 189, 0.949);*/
     text-align: center;
 }
 
 .produto_card_container {
-    width: 1400px;
+    width: 1093px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
     gap: 16px;
-    justify-content: flex-start;
     border-radius: 2px;
 }
 
@@ -31,18 +31,18 @@
 }
 
 .card {
-    background: rgba(255, 254, 254, 0.949);
+    /*background: rgb(255, 240, 243);*/
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.checkbox {
-    margin-left: 130px;
-    width: 15px;
+.card input {
+    width: 150%;
+    position: absolute;
     height: 15px;
 }
 
-.btn {
+.btn_prod {
     width: 70%;
     position: absolute;
     bottom: 8px;

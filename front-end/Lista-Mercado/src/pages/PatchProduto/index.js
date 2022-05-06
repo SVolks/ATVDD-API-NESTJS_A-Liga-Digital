@@ -29,38 +29,38 @@ export default function EditarProduto() {
     }
 
     return (
-        <div className='produt_container' style={{border: "3px solid rgba(217, 216, 216, 0.902)"}}>
-            <h1>Editar Produto</h1>
-            <br/>
+        <div className="produto_container">
+            <h1>Editar Produto</h1>  
+        <div className='produ_container' style={{border: "3px solid rgba(217, 216, 216, 0.902)"}}>
             <h2>{produtoEdit.name}</h2>
-
-            <div className='produto_edit'>
-                <div className='produto_campo'>
-                    <span className='produto_label'>Nome do produto:</span>
-                    <Input value={produtoEdit?.name} onChange={(e) => {
-                        setProdutoEdit((produtoEdit) => {
-                            return{...produtoEdit, name: e.target.value}
-                        })
-                    }}/>
-                </div>
-                <div className='produto_campo'>
-                    <span className='produto_label'>Descrição do produto:</span>
-                    <Input value={produtoEdit?.description} onChange={(e) => {
-                        setProdutoEdit((produtoEdit) => {
-                            return{...produtoEdit, description: e.target.value}
-                        })
-                    }}/>
-                </div>
-                <div className='produto_campo'>
-                    <span className='produto_label'>Quantidade do produto:</span>
-                    <InputNumber value={produtoEdit?.quantity} onChange={(e) => {
-                        setProdutoEdit((produtoEdit) => {
-                            return{...produtoEdit, quantity: e}
-                        })
-                    }}/>
-                </div>
-                <Button type='primary' className='editar-btn' onClick={() => handleSubmitEdit(produtoEdit)}>Editar</Button>
+        <div className='produto_edit'>
+            <div className='produto_campo'>
+                <span className='produto_label'>Nome do produto:</span>
+                <Input value={produtoEdit?.name} onChange={(e) => {
+                    setProdutoEdit((produtoEdit) => {
+                        return{...produtoEdit, name: e.target.value}
+                    })
+                }}/>
             </div>
+            <div className='produto_campo'>
+                <span className='produto_label'>Descrição do produto:</span>
+                <Input value={produtoEdit?.description} onChange={(e) => {
+                    setProdutoEdit((produtoEdit) => {
+                        return{...produtoEdit, description: e.target.value}
+                    })
+                }}/>
+                </div>
+            <div className='produto_campo'>
+                <span className='produto_label'>Quantidade do produto:</span>
+                <InputNumber value={produtoEdit?.quantity} onChange={(e) => {
+                    setProdutoEdit((produtoEdit) => {
+                        return{...produtoEdit, quantity: e}
+                    })
+                }}/>
+            </div>
+            <Button type='primary' className='editar-btn' onClick={() => handleSubmitEdit(produtoEdit)}>Editar</Button>
+        </div>
+        </div>
         </div>
     )
 }
