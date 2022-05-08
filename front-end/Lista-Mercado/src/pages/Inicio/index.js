@@ -1,6 +1,6 @@
 import {useHistory} from 'react-router-dom'
 import './styles.css'
-import logo from '../assets/logo.jpg'
+import logo from '../assets/logo.jpg';
 
 export default function Inicio(){
     

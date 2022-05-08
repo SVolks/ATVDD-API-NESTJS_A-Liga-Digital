@@ -13,7 +13,7 @@
 }
 
 .header{
-  padding-left: 600px;
+  text-align: center;
   /*background-color: #f7f7f7;*/
   font-size: 16px;
   font-weight: 700;
@@ -26,7 +26,7 @@
 
 .content {
   overflow: auto;
-  background-image: url(./pages/assets/bgimg.png);
+  /*background-image: url(./pages/assets/bgimg.png);*/
   background-size: 500px;
 }
 
@@ -47,9 +47,9 @@
   /*color: #9e4343;*/
 }
 
-.menu_section button{
-  margin: 320px 0 0 10px;
-  padding: 12px 12px;
+.menu_section .btn_menu{
+  margin: 273px 0 0 20px;
+  padding: 11px 12px;
   border-radius: 20px;
   font-family: Cambria;
   font-size: 12px;
@@ -57,5 +57,16 @@
   /*background:rgb(255, 207, 207);
   border: 2px solid rgb(143, 33, 33);*/
   cursor: pointer;
-  transition: .2;
+}
+
+@media only screen and (max-width: 1212px){
+  .menu_section .btn_menu{
+    margin: 232px 0 0 20px;
+  }
+}
+
+@media only screen and (max-width: 1800px){
+  .menu_section .btn_menu{
+    margin: 250px 0 0 20px;
+  }
 }

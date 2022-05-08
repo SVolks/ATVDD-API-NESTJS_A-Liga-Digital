@@ -15,3 +15,64 @@
     padding: 20px 30px 1px 30px;
     border-radius: 8px;
 }
+
+@media only screen and (max-width: 1280px){
+    .form_produto {
+        width: 750px;
+        margin-left: 160px;
+        margin-top: 40px;
+    }
+  }
+
+@media only screen and (max-width: 1200px){
+    .form_produto {
+        width: 750px;
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+  }
+
+@media only screen and (max-width: 1120px){
+    .form_produto {
+        width: 750px;
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+  }
+
+@media only screen and (max-width: 1120px){
+    .form_produto {
+        width: 660px;
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+    .btn_add {
+        width: 100px;
+        padding: 0;
+    }
+  }
+
+@media only screen and (max-width: 950px){
+    .form_produto {
+        width: 660px;
+        margin-left: 40px;
+    }
+  }
+
+@media only screen and (max-width: 920px){
+    .form_produto {
+        width: 620px;
+    }
+  }
+
+@media only screen and (max-width: 850px){
+    .form_produto {
+        width: 500px;
+    }
+  }
+
+@media only screen and (max-width: 767px){
+    .form_produto {
+        width: 660px;
+    }
+  }

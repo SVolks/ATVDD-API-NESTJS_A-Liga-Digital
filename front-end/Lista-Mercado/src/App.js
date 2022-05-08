@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import styled, {ThemeProvider} from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from "./themes";
 import './App.css';
-import { Menu, Layout } from 'antd';
+import { Menu, Layout, Switch } from 'antd';
 import Routes from './routes';
 import {PlusOutlined, UnorderedListOutlined, HomeOutlined, GithubOutlined} from '@ant-design/icons'
 import { useHistory } from 'react-router-dom';
@@ -40,7 +40,13 @@ function App() {
       <Layout className='main_content'>
         <Header className='header'>O que precisamos comprar?</Header>
       <Layout>
-        <Sider className='menu'>
+        <Sider className='menu' breakpoint="md" collapsedWidth="0"
+        onBreakpoint={broken => {
+          console.log(broken);
+        }}
+        onCollapse={(collapsed, type) => {
+          console.log(collapsed, type);
+        }}>
           <Menu className='menu_section'>
             <Menu.Item className='icon' key={0} icon={<HomeOutlined />} onClick={telaInicial}>
               <span className='text'>Tela Inicial</span>
@@ -51,7 +57,7 @@ function App() {
             <Menu.Item className='icon' key={2} icon={<UnorderedListOutlined />} onClick={listaProduto}>
              <span className='text'>Lista de Produtos</span>
             </Menu.Item>
-            <button className="btn_menu" onClick={() => themeToggler()}>alterar tema</button>
+            <Switch className="btn_menu" defaultChecked onClick={() => themeToggler()} />
               <Menu.Item className='icon git' key={3} icon={<GithubOutlined />}>
                 <a href='https://github.com/SVolks' target='_blank' rel="noreferrer">
                   <span className='text_git'>GitHub</span>

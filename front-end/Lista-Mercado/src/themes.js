@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-//import {bgimg, bgimgdark, logo, logodark} from './pages/assets/imgs';
+import {bgimg, bgimgdark} from './pages/assets/imgs';
 
 
 
@@ -11,33 +11,33 @@ export const lightTheme = {
     border: 'rgba(217, 216, 216, 0.902)',
     colorGit: '#9e4343',
     btnProd: '#f7f7f7',
-    boredrBtnProd: 'rgba(217, 216, 216, 0.902)',
+    borderBtnProd: 'rgba(217, 216, 216, 0.902)',
     prodH1: 'rgba(255, 247, 247, 0.949)',
     prodH1Color: '#000',
     colorPatch: '#000',
     bgInicio: 'linear-gradient(72deg, #f0fcee 1%, #ffacac 99%)',
-
+    bGImg: bgimg,
+    logoImg: 'none',
+    btnExcluir: 'rgba(219, 0, 0, 0.949)',
 };
-//bGImg: bgimg,
-//logoImg: logo,
 
 export const darkTheme = {
-    backgroundColor: '#222222',
+    backgroundColor: '#010414',
     background: 'rgb(90, 90, 90)',
     backgroundCard: 'rgba(189, 189, 189, 0.949)',
     fontColor: '#dfdfdf',
     border: 'rgb(0, 0, 0)',
-    colorGit: '#936767',
-    btnProd: 'rgb(114, 114, 114)',
-    boredrBtnProd: 'rgb(126, 126, 126);',
-    prodH1: 'rgba(209, 209, 209, 0.949)',
-    prodH1Color: 'rgb(64, 64, 64)',
+    colorGit: '#181a48',
+    btnProd: 'rgba(111, 113, 140, 0.949)',
+    borderBtnProd: 'rgb(126, 126, 126)',
+    prodH1: 'rgba(111, 113, 140, 0.949)',
+    prodH1Color: '#000',
     colorPatch: '#000',
-    bgInicio: 'linear-gradient(72deg, #979897 1%, #252525 99%)',
+    bgInicio: 'linear-gradient(72deg, #979897 1%, #0b092a 99%)',
+    bGImg: bgimgdark,
+    logoImg: 'brightness(0.6)',
+    btnExcluir: 'rgba(106, 5, 5, 0.949)', 
 };
-//bGImg: bgimgdark,
-//logoImg: logodark,
-
 
 export const GlobalStyles = createGlobalStyle`
     .header, .menu, .menu_section{
@@ -72,10 +72,15 @@ export const GlobalStyles = createGlobalStyle`
         background: ${props => props.theme.backgroundCard};
         transition: .4s;
     }
-    .btn_prod, .btn_add{
+    .btn_prod, .btn_add, .editar-btn, .btn_det_edit{
         background-color: ${props => props.theme.btnProd};
         color: ${props => props.theme.fontColor};
-        border: 2px solid ${props => props.theme.boredrBtnProd};
+        border: 2px solid ${props => props.theme.borderBtnProd};
+        transition: .4s;
+    }
+    .btn_excluir {
+        background-color: ${props => props.theme.btnExcluir};
+        border: 2px solid ${props => props.theme.borderBtnProd};
         transition: .4s;
     }
     .produto_container h1{
@@ -87,8 +92,12 @@ export const GlobalStyles = createGlobalStyle`
         color: ${props => props.theme.colorPatch};
         transition: .4s;
     }
+    .content {
+        background-image: url(${props => props.theme.bGImg});
+        transition: .4s;
+      }
+    img {
+        filter: ${props => props.theme.logoImg};
+        transition: .4s;
+    }
 `;
-
-//.content{
-//    background-image: ${props => props.theme.bGImg};
-//}
