@@ -49,6 +49,9 @@
     font-weight: 500;
 }
 
+
+/* @MEDIA */
+
 @media only screen and (max-width: 1320px){
     .produto_container h1 {
         width: 1070px;
@@ -60,7 +63,7 @@
 
 @media only screen and (max-width: 1280px){
     .produto_container h1 {
-        width: 1020px;
+        width: 1000px;
     }
     .produto_card_container {
         width: 970px;
@@ -106,9 +109,9 @@
     }
 }
 
-@media only screen and (max-width: 1020px){
+@media only screen and (max-width: 1024px){
     .produto_container h1 {
-        width: 770px;
+        width: 778px;
     }
     .produto_card_container {
         width: 710px;
@@ -126,7 +129,7 @@
 
 @media only screen and (max-width: 950px){
     .produto_container h1 {
-        width: 700px;
+        width: 690px;
     }
 }
 
@@ -172,5 +175,110 @@
     }
     .produto_card_container {
         width: 640px;
+    }
+}
+
+@media only screen and (max-width: 740px){
+    .produto_container h1 {
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 710px){
+    .produto_container h1 {
+        width: 670px;
+    }
+}
+
+@media only screen and (max-width: 670px){
+    .produto_container h1 {
+        width: 620px;
+    }
+    .produto_card_container {
+        width: 630px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .produto_container h1 {
+        width: 600px;
+    }
+    .produto_card_container {
+        width: 570px;
+    }
+}
+
+@media only screen and (max-width: 610px){
+    .produto_container h1 {
+        width: 570px;
+    }
+    .produto_card_container {
+        width: 510px;
+    }
+}
+
+@media only screen and (max-width: 590px){
+    .produto_container h1 {
+        width: 550px;
+    }
+    .produto_card_container {
+        width: 470px;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .produto_container h1 {
+        width: 520px;
+    }
+    .produto_card_container {
+        width: 420px;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    .produto_container h1 {
+        width: 490px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .produto_container h1 {
+        width: 460px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .produto_container h1 {
+        width: 340px;
+    }
+    .produto_card_container {
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .produto_container h1 {
+        width: 370px;
+    }
+    .produto_card_container {
+        width: 360px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .produto_container h1 {
+        width: 330px;
+    }
+    .produto_card_container {
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .produto_container h1 {
+        width: 250px;
+    }
+    .produto_card_container {
+        width: 250px;
     }
 }

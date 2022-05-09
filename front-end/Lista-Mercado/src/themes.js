@@ -18,7 +18,7 @@ export const lightTheme = {
     bgInicio: 'linear-gradient(72deg, #f0fcee 1%, #ffacac 99%)',
     bGImg: bgimg,
     logoImg: 'none',
-    btnExcluir: 'rgba(219, 0, 0, 0.949)',
+    btnExcluir: 'rgb(229, 51, 51)',
 };
 
 export const darkTheme = {
