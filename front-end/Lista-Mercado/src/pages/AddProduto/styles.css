@@ -121,22 +121,21 @@
     }
   }
   
+  @media only screen and (max-width: 414px){
+    .form_produto {
+      width: 330px;
+      margin-left: 25px;
+      margin-top: 130px;
+      padding: 0 8px;
+      font-weight: 700;
+    }
+  }
+
   @media only screen and (max-width: 375px){
     .form_produto {
         width: 300px;
-        margin-left: 20px;
-        margin-top: 15px;
+        margin-top: 30px;
         padding: 0 8px;
-    }
-  }
-  
-  @media only screen and (max-width: 414px){
-    .form_produto {
-        width: 330px;
-        margin-left: 20px;
-        margin-top: 70px;
-        padding: 0 8px;
-        font-weight: 700;
     }
   }
   
@@ -144,6 +143,8 @@
     .form_produto {
         width: 300px;
         padding: 0 8px;
+        margin-top: 50px;
+        margin-left: 15px;
     }
   }
   

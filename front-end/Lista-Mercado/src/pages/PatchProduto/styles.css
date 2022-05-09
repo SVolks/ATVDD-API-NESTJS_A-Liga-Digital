@@ -20,7 +20,7 @@
     /*background-color: #fff;*/
     padding: 30px;
     width: 800px;
-    margin: 80px 170px;
+    margin: 40px 170px;
 }
 
 .editar-btn {
@@ -65,7 +65,7 @@
 
 @media only screen and (max-width: 950px){
     .produ_container {
-        margin: 50px 20px;
+        margin: 50px 10px;
         width: 670px;
     }
   }
@@ -74,7 +74,7 @@
     .produ_container {
         margin: 50px 20px;
         width: 600px;
-        padding: 30px 0 30px 20px;
+        padding: 30px;
     }
   }
 
@@ -123,39 +123,39 @@
         margin: 40px 5px;
     }
   }
-
-@media only screen and (max-width: 375px){
+  
+  @media only screen and (max-width: 414px){
     .produ_container {
-        width: 310px;
-        margin: -20px 0 0 -7px;
-        padding: 8px 0 8px 4px;
-    }
-  }
-
-@media only screen and (max-width: 414px){
-    .produ_container {
-        width: 390px;
-        margin: 200px 0 0 -7px;
+      width: 390px;
+      margin: 200px 0 0 -7px;
         padding: 12px;
     }
     .produto_label {
       font-weight: 700;
     }
   }
-
+  
   @media only screen and (max-width: 393px){
     .produ_container {
-        width: 380px;
-        margin: 200px 0 0 -11px;
-        padding: 8px 0 8px 4px;
+      width: 380px;
+      margin: 180px 0 0 -11px;
+      padding: 8px;
     }
   }
- 
+  
+  @media only screen and (max-width: 375px){
+      .produ_container {
+          width: 340px;
+          margin: 90px 0 0 4px;
+          padding: 8px;
+      }
+    }
+  
   @media only screen and (max-width: 360px){
     .produ_container {
-        width: 360px;
-        margin: 120px 0 0 -17px;
-        padding: 8px 0 8px 4px;
+        width: 340px;
+        margin: 120px 0 0 -4px;
+        padding: 8px;
     }
   }
   

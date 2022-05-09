@@ -4,7 +4,7 @@ import {bgimg, bgimgdark} from './pages/assets/imgs';
 
 
 export const lightTheme = {
-    backgroundColor: '#f7f7f7',
+    backgroundColor: 'rgba(255, 247, 247, 0.949)',
     background: 'rgb(255, 207, 207)',
     backgroundCard: 'rgba(255, 247, 247, 0.949)',
     fontColor: '#000',
@@ -27,13 +27,13 @@ export const darkTheme = {
     backgroundCard: 'rgba(189, 189, 189, 0.949)',
     fontColor: '#dfdfdf',
     border: 'rgb(0, 0, 0)',
-    colorGit: '#181a48',
+    colorGit: '#4a4d99',
     btnProd: 'rgba(111, 113, 140, 0.949)',
     borderBtnProd: 'rgb(126, 126, 126)',
     prodH1: 'rgba(111, 113, 140, 0.949)',
     prodH1Color: '#000',
     colorPatch: '#000',
-    bgInicio: 'linear-gradient(72deg, #979897 1%, #0b092a 99%)',
+    bgInicio: 'linear-gradient(72deg, #bd9494  1%, #0b092a 99%)',
     bGImg: bgimgdark,
     logoImg: 'brightness(0.6)',
     btnExcluir: 'rgba(106, 5, 5, 0.949)', 
@@ -83,9 +83,13 @@ export const GlobalStyles = createGlobalStyle`
         border: 2px solid ${props => props.theme.borderBtnProd};
         transition: .4s;
     }
-    .produto_container h1{
+    .produto_container h1 {
         color: ${props => props.theme.prodH1Color};
         background-color: ${props => props.theme.prodH1};
+        transition: .4s;
+    }
+    .text {
+        color: ${props => props.theme.colorGit};
         transition: .4s;
     }
     .produto_label {
