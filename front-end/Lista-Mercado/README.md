@@ -1,10 +1,10 @@
-# Como utilizar sua Nova Lista de Compras!
+# Como utilizar sua Nova Lista de Compras! :satisfied:
 
 ## Nesse projeto, você pode:
 
 ### `1. Acessar sua lista de compras:`
 
-- Está vendo essa logo redondinha? Essa cestinha mesmo, logo à sua frente, clique nela! ;D.
+- Está vendo essa logo redondinha? Essa cestinha mesmo, logo à sua frente, clique nela! :wink:
 - Ou se preferir pode acessá-la no menu lateral, ali no cantinho esquerdo.
 
 <br>
@@ -15,7 +15,7 @@
 
 ### `2. Adicionando um produto:`
 
-- Ali no menuzinho lateral, do lado esquerdo da tela, você pode clicar em **"Adicionar Produtos"**. Feito isso, você está pronto para adicionar todas as coisas que não podem ser equecidas quando for ao mercado.
+- Ali no menuzinho lateral, do lado esquerdo da tela, você pode clicar em **"Adicionar Produtos"**. Feito isso, você está pronto para adicionar todas as coisas que não podem ser esquecidas quando for ao mercado. :cookie:
 
 <br>
 <div align="center">
@@ -36,7 +36,7 @@
 ### `4. Detalhes:`
 
 - Clicando em detalhes você vai parar nessa telinha aí, através dela poderá excluir ou editar seu item.
-- Ps.: Não se preocupe, caso clique em EXCLUIR sem querer ainda da para voltar atrás! ;)
+- Ps.: Não se preocupe, caso clique em EXCLUIR sem querer ainda da para voltar atrás! :wink:
 
 <br>
 <div align="center">
@@ -65,8 +65,8 @@
 <br>
 
 #### `Não se esqueça de dois detalhes!`
-- O primeiro é o 'botãozinho', é a opção de um tema escuro ou, dependendo das configurações do seu aparelho, claro. Acesse ele no final do menu... lado esquerdo, lembra? :D
-- O segundo é acessar meu github (logo abaixo do 'botãozinho' citado acima) e me dar seu feedback \o/! Toda ajuda e comentários são bem-vindos!
+- O primeiro é o 'botãozinho', é a opção de um tema escuro ou, dependendo das configurações do seu aparelho, claro. Acesse ele no final do menu... lado esquerdo, lembra? :grin:
+- O segundo é acessar meu github (logo abaixo do 'botãozinho' citado acima) e me dar seu feedback \o/ ! Toda ajuda e comentários são bem-vindos! :facepunch:
 
 <br>
 <div align="center">
@@ -86,7 +86,7 @@
 
 <div align="center">
 <h3>
-Obrigada a todos os professores pela paciência, dedicação, empatia e empenho. Vocês com certeza fizeram a diferença!
+:sparkles: Obrigada a todos os professores pela paciência, dedicação, empatia e empenho. Vocês com certeza fizeram a diferença! :sparkles:
 </h3>
 </div>
 
