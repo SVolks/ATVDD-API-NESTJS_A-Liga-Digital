@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# Como utilizar sua Nova Lista de Compras!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Nesse projeto, você pode:
 
-## Available Scripts
+### `1. Acessar sua lista de compras:`
 
-In the project directory, you can run:
+- Está vendo essa logo redondinha? Essa cestinha mesmo, logo à sua frente, clique nela! ;D.
+- Ou se preferir pode acessá-la no menu lateral, ali no cantinho esquerdo.
 
-### `npm start`
+<br>
+<div align="center">
+  <img alt="gif" height="400" width="700" src="./src/pages/assets/GifsREADME/video1.gif">
+</div>
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `2. Adicionando um produto:`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Ali no menuzinho lateral, do lado esquerdo da tela, você pode clicar em **"Adicionar Produtos"**. Feito isso, você está pronto para adicionar todas as coisas que não podem ser equecidas quando for ao mercado.
 
-### `npm test`
+<br>
+<div align="center">
+  <img alt="gif" height="400" width="700" src="./src/pages/assets/GifsREADME/video2.gif">
+</div>
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `3. Voltando para a lista...`
 
-### `npm run build`
+- Aqui você pode marcar os itens já pegos e acessar os detalhes de cada um.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
+<div align="center">
+  <img alt="gif" height="400" width="700" src="./src/pages/assets/GifsREADME/video3.gif">
+</div>
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `4. Detalhes:`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Clicando em detalhes você vai parar nessa telinha aí, através dela poderá excluir ou editar seu item.
+- Ps.: Não se preocupe, caso clique em EXCLUIR sem querer ainda da para voltar atrás! ;)
 
-### `npm run eject`
+<br>
+<div align="center">
+  <img alt="gif" height="400" width="700" src="./src/pages/assets/GifsREADME/video4.gif">
+</div>
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `5. Excluir:`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Lembra ali no tópico anterior quando eu disse que dava para voltar atrás? Não se engane, se você confirmar a ação no "OK"... aí é 'pra' valer e não da mais para voltar atrás, então preste atenção e tenha firmeza nesses cliques.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br>
+<div align="center">
+  <img alt="gif" height="400" width="700" src="./src/pages/assets/GifsREADME/video5.gif">
+</div>
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### `6. Editar:`
 
-## Learn More
+- Depois de acessar a lista e os detalhes, chegamos aqui! Se quando, lááááááá em cima, ao criar um produto para sua lista você errou algo... KEEP CALM, é aqui que arrumamos nossos erros!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
+<div align="center">
+  <img alt="gif" height="400" width="700" src="./src/pages/assets/GifsREADME/video6.gif">
+</div>
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### `Não se esqueça de dois detalhes!`
+- O primeiro é o 'botãozinho', é a opção de um tema escuro ou, dependendo das configurações do seu aparelho, claro. Acesse ele no final do menu... lado esquerdo, lembra? :D
+- O segundo é acessar meu github (logo abaixo do 'botãozinho' citado acima) e me dar seu feedback \o/! Toda ajuda e comentários são bem-vindos!
 
-### Code Splitting
+<br>
+<div align="center">
+  <img alt="gif" height="400" width="700" src="./src/pages/assets/GifsREADME/videodark-light.gif">
+</div>
+<br>
+<br>
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<div align="center">
+<h3>
+-------------------- < Vem.Ser=Dev > Projeto final - A Liga Digital < /Vem.Ser=Dev > --------------------
+</h3>
+</div>
 
-### Analyzing the Bundle Size
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<div align="center">
+<h3>
+Obrigada a todos os professores pela paciência, dedicação, empatia e empenho. Vocês com certeza fizeram a diferença!
+</h3>
+</div>
 
-### Making a Progressive Web App
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
