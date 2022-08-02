@@ -19,7 +19,7 @@
 
 <br>
 <div align="center">
-  <img alt="gif" height="400" width="700" src="./src/pages/assets/GifsREADME/video2.gif">
+  <img alt="gif" height="400" width="700" src=".front-end/Lista-Mercado/src/pages/assets/GifsREADME/video2.gif">
 </div>
 <br>
 
