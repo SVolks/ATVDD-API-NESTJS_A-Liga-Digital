@@ -9,7 +9,7 @@
 
 <br>
 <div align="center">
-  <img alt="gif" height="400" width="700" src="./src/pages/assets/GifsREADME/video1.gif">
+  <img alt="gif" height="400" width="700" src="./front-end/Lista-Mercado/src/pages/assets/GifsREADME/video1.gif">
 </div>
 <br>
 
@@ -19,7 +19,7 @@
 
 <br>
 <div align="center">
-  <img alt="gif" height="400" width="700" src="./src/pages/assets/GifsREADME/video2.gif">
+  <img alt="gif" height="400" width="700" src="./front-end/Lista-Mercado/src/pages/assets/GifsREADME/video2.gif">
 </div>
 <br>
 
@@ -29,7 +29,7 @@
 
 <br>
 <div align="center">
-  <img alt="gif" height="400" width="700" src="./src/pages/assets/GifsREADME/video3.gif">
+  <img alt="gif" height="400" width="700" src="./front-end/Lista-Mercado/src/pages/assets/GifsREADME/video3.gif">
 </div>
 <br>
 
@@ -40,7 +40,7 @@
 
 <br>
 <div align="center">
-  <img alt="gif" height="400" width="700" src="./src/pages/assets/GifsREADME/video4.gif">
+  <img alt="gif" height="400" width="700" src="./front-end/Lista-Mercado/src/pages/assets/GifsREADME/video4.gif">
 </div>
 <br>
 
@@ -50,7 +50,7 @@
 
 <br>
 <div align="center">
-  <img alt="gif" height="400" width="700" src="./src/pages/assets/GifsREADME/video5.gif">
+  <img alt="gif" height="400" width="700" src="./front-end/Lista-Mercado/src/pages/assets/GifsREADME/video5.gif">
 </div>
 <br>
 
@@ -60,7 +60,7 @@
 
 <br>
 <div align="center">
-  <img alt="gif" height="400" width="700" src="./src/pages/assets/GifsREADME/video6.gif">
+  <img alt="gif" height="400" width="700" src="./front-end/Lista-Mercado/src/pages/assets/GifsREADME/video6.gif">
 </div>
 <br>
 
@@ -70,7 +70,7 @@
 
 <br>
 <div align="center">
-  <img alt="gif" height="400" width="700" src="./src/pages/assets/GifsREADME/videodark-light.gif">
+  <img alt="gif" height="400" width="700" src="./front-end/Lista-Mercado/src/pages/assets/GifsREADME/videodark-light.gif">
 </div>
 <br>
 <br>
